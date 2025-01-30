@@ -5,7 +5,7 @@ from PIL import Image, ImageTk
 
 # Function to create the footer label
 def create_footer(window):
-    footer_label = Label(window, text="Designed by: Prabhu Pritam", font=("Helvetica", 15, "italic"), bg="#e8f5e9", fg="#4caf50")
+    footer_label = Label(window, text="Designed by: Soumya Ranjan Mohanty", font=("Helvetica", 15, "italic"), bg="#e8f5e9", fg="#4caf50")
     footer_label.pack(side=BOTTOM, pady=5)
 
 # Function to verify user credentials using the user_data.db
